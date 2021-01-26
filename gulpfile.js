@@ -1,8 +1,7 @@
 const { src, dest, series, parallel, watch } = require('gulp');
 const webserver = require('gulp-webserver');
 const sass = require('gulp-sass');
-const proxy = require('http-proxy-middleware');
-
+const { createProxyMiddleware } = require('http-proxy-middleware');
 function compileCss() {
     return src('./src/sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
@@ -16,15 +15,16 @@ function server() {
             livereload: true,
             // directoryListing: true,
             open: './index.html',
-            // middleware: [
-            //     proxy('/api', {
-            //         target: 'https://www.yohobuy.com/',
-            //         changeOrigin: true,
-            //         pathRewrite: {
-            //             '^/api/': ''
-            //         }
-            //     })
-            // ]
+            middleware: [
+                // /api代理有货网
+                createProxyMiddleware('/api', {
+                    target: 'https://www.yohobuy.com/',
+                    changeOrigin: true,
+                    pathRewrite: {
+                        '^/api': ''
+                    }
+                })
+            ]
         }))
 }
 
