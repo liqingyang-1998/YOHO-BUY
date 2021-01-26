@@ -1,7 +1,7 @@
 
 @mixin icon-bg ($x,$y,$w:15,$h:14){
   display: inline-block;
-  background-image: url(../img/sprite.scss.png);
+  background-image: url(../assets/img/sprite.scss.png);
   background-size: 123px 122px;
   background-position: $x+px $y+px;
   width: $w+px;
@@ -225,7 +225,7 @@ footer{
       left: 0;
       top: 12px;
       a{
-        display: inline-block;
+        // display: inline-block;
         float: left;
         border-radius: 2px;
         margin-right: 8px;

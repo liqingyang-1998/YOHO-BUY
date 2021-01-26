@@ -1,66 +1,50 @@
 header {
   border-bottom: 2px solid #222;
-  margin: 0 0 20px;
-}
-header .top {
-  width: 990px;
-}
-header .top .logo {
-  display: block;
-  float: left;
-  line-height: 66px;
-  font-size: 0;
-}
-header .top .logo img {
-  vertical-align: middle;
-  border: none;
-}
-header .top ul {
-  float: right;
-}
-header .top ul li {
-  float: left;
-  line-height: 66px;
-  padding: 0 10px;
-}
-header .top ul li a {
-  color: #000;
-}
+  margin: 0 0 20px; }
+  header .top {
+    width: 990px; }
+    header .top .logo {
+      display: block;
+      float: left;
+      line-height: 66px;
+      font-size: 0; }
+      header .top .logo img {
+        vertical-align: middle;
+        border: none; }
+    header .top ul {
+      float: right; }
+      header .top ul li {
+        float: left;
+        line-height: 66px;
+        padding: 0 10px; }
+        header .top ul li a {
+          color: #000; }
 
 .main {
-  overflow: hidden;
-}
-.main p {
-  display: block;
-  width: 990px;
-  height: 25px;
-  background-color: #f5f5f5;
-  line-height: 25px;
-  margin-top: 10px;
-  text-align: center;
-}
-.main p span {
-  color: red;
-}
-.main > .left {
-  margin: 107px 0;
-  padding: 50px 0;
-  border-right: 1px solid #dfdfdf;
-  height: 318px;
-  width: 575px;
-  float: left;
-}
-.main > .left .cover-img {
-  display: block;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-.main form {
-  float: left;
-}
-.main form .loginBox {
-  margin-top: 107px;
-  padding-left: 85px;
-}
-
-/*# sourceMappingURL=login.css.map */
+  overflow: hidden; }
+  .main p {
+    display: block;
+    width: 990px;
+    height: 25px;
+    background-color: #f5f5f5;
+    line-height: 25px;
+    margin-top: 10px;
+    text-align: center; }
+    .main p span {
+      color: red; }
+  .main > .left {
+    margin: 107px 0;
+    padding: 50px 0;
+    border-right: 1px solid #dfdfdf;
+    height: 318px;
+    width: 575px;
+    float: left; }
+    .main > .left .cover-img {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px; }
+  .main form {
+    float: left; }
+    .main form .loginBox {
+      margin-top: 107px;
+      padding-left: 85px; }
