@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用户登录</title>
+  <link rel="stylesheet" href="./css/current.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <header>
+    <div class="top center-content clear">
+      <a class="logo" href="index.html"><img src="https://static.yohobuy.com/newheader/img/logo_e.png?imageView2/2/interlace/1/q/75" alt="logo"></a>
+      <ul>
+        <li>Hi~ [ <a href="#">请登录</a> ] [<a href="#">免费注册</a> ]</li>
+        <li><a href="#">MY有货</a></li>
+        <li><a href="#">订单中心</a></li>
+        <li><a href="#">客户服务</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="main center-content clear">
+    <p class="center-content">为保障账户安全与正常使用，依《网络安全法》相关要求，会员账号需绑定手机号。<span>如您尚未绑定手机号，请尽快完成，</span>>感谢您对Yoho!Buy有货的理解与支持！</p>
+    <div class="left">
+      <img class="cover-img" src="https://img12.static.yhbimg.com/yhb-img01/2015/12/01/07/020a0b6e7ff908d0c2bc4045b4fef42b9f.png?imageView/2/w/252/h/190">
+    </div>
+    <form action="#">
+      <div class="loginBox">
+        <div class="login-type">
+          <div id="device-bg"></div>
+          <div class="type-tip">
+          </div>
+        </div>
+        <div class="desktop-login">
+          <div>
+            <h2>会员登录</h2>
+            <span>中国 +86</span>
+          </div>
+          <div class="switch">
+            <div class="left">普通登录</div>
+            <div class="right">手机验证码登录</div>
+
+          </div>
+          <div>
+            <input type="text" name="account" placeholder="邮箱/手机号">
+          </div>
+          <div>
+            <input type="text" name="password" placeholder="密码">
+          </div>
+          <div class="captcha"></div>
+          <button type="submit">登录</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <footer></footer>
+  <script type="module">
+    import Footer from "./js/ES6/footer.js"
+    init();
+    function init(){
+      let footer = new Footer();
+      footer.appendTo("footer")
+    }
+  </script>
+</body>
+</html>

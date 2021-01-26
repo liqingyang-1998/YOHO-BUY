@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/current.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <header></header>
+  <div class="carousel"></div>
+  <div class="main center-content"></div>
+  <footer></footer>
+  <script type="module">
+    var carouselList = ["https://img11.static.yhbimg.com/yhb-img01/2020/11/12/09/015b1adc66d57b3749cd44b692ee5a701f.jpg?imageView2/2/w/1125/h/420","https://img10.static.yhbimg.com/yhb-img01/2020/10/09/09/01ae3219ce90218a4811b5571ed685c862.jpg?imageView2/2/w/1125/h/420","https://img11.static.yhbimg.com/yhb-img01/2020/10/09/09/01ad0219c3ade5829d225eb49d396fab6f.jpg?imageView2/2/w/1125/h/420","https://img11.static.yhbimg.com/yhb-img01/2020/08/13/15/010ffcfcabefff7a8cfda21ca090cb1cb2.jpg?imageView2/2/w/1125/h/420"];
+    var mapList = ["人气单品","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/013ec6ba6c4f1859b7a35b94db32288d89.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/10/09/14/01cc173da1cd66e96aa9c49d54384517f4.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/0187e6bff0589d47be8927297861b5b06e.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/01ba129add4fce6ed7d55b2ae9de660891.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/11/19/09/01f8c70f1e0134c84c7a729f4a818c6628.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/01916a3885be241dee330f5e813b15a421.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/11/19/09/0143ffc6e9b063cc41d46d906baa1c4ab3.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/23/10/012eaa1ceb8772d28e214330dfb5e041b0.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/06/01/14/01f50572bf142d5f4b29d728f353a95b76.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/08/13/15/0169431db00fc5d117778b977d136e4dde.jpg?imageView2/2/w/378/h/248"];
+    import Header from "./js/ES6/header.js"
+    import Footer from "./js/ES6/footer.js"
+    import GoodsMap from "./js/ES6/GoodsMap.js"
+    import Carousel from "./js/ES6/carousel.js"
+    var carousel;
+    init();
+    function init(){
+      let header = new Header();
+      let footer = new Footer();
+      let goodsMap = new GoodsMap(mapList);
+      carousel = new Carousel(carouselList);
+      header.appendTo("header");
+      carousel.appendTo(".carousel")
+      goodsMap.appendTo(".main")
+      footer.appendTo("footer");
+      animation();
+    }
+    function animation(){
+      requestAnimationFrame(animation);
+      carousel.autoplay();
+    }
+
+  </script>
+</body>
+
+</html>

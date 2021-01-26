@@ -1,0 +1,270 @@
+
+@mixin icon-bg ($x,$y,$w:15,$h:14){
+  display: inline-block;
+  background-image: url(../img/sprite.scss.png);
+  background-size: 123px 122px;
+  background-position: $x+px $y+px;
+  width: $w+px;
+  height: $h+px;
+  margin-top: -2px;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+$arr:(-64 -86 10 5)(0 -86 11 14)(-107 -44 15 13)(-107 -65 16 11);
+
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  // color: #000000;
+}
+.center-content{
+  width: 1150px;
+  margin: 0 auto;
+}
+header{
+  width: 100%;
+  .head{
+    height: 32px;
+    background-color: #f4f4f4;
+    font-size: 12px;
+    .left{
+      float: left;
+      padding: 0 5px;
+      font-size: 12px;
+      line-height: 32px;
+    }
+    .group{
+      position: relative;
+      span{
+        @include icon-bg(-19,-86,16,12);
+      }
+      a{
+        color: #000000;
+      }
+      &:hover{
+        background-color: #dcdcdc;
+      }
+      .groupMap{
+        position: absolute;
+        padding: 20px 0 20px 20px;
+        top: 32px;
+        background-color: #f4f4f4;
+        margin-left: -5px;
+        z-index: 9;
+        display: none;
+        li{
+          width: 170px;
+          color: #9196a0;
+          font-size: 14px;
+          cursor: pointer;
+          &:hover{
+            color: #000000;
+          }
+        }
+      }
+      &:hover>.groupMap{
+        display: block;
+      }
+    }
+    .info{
+      margin-left: 20px;
+      padding: 0 1px;
+      span{
+        @include icon-bg(-107,-22);
+      }
+      a{
+        color: #d71d32;
+      }
+    }
+    ul{
+      float:right;
+      line-height: 32px;
+      color: #000000;
+      li{
+        float: left;
+        padding-right: 10px;
+        a{
+          color: #8e8e8e;
+        }
+        .span-tg{
+          width: 0;
+          margin-top: 11px;
+          margin-right: 12px;
+          height: 14px;
+          float: left;
+          border-left: 1px solid #dcdcdc;
+        }
+        @for $i from 1 to 5 {
+          $t:$i+1;
+          $x:nth(nth($arr,$i),1);
+          $y:nth(nth($arr,$i),2);
+          $w:nth(nth($arr,$i),3);
+          $h:nth(nth($arr,$i),4);
+          &:nth-child(#{$t})>.span-icon{
+            @include icon-bg($x,$y,$w,$h)
+          }
+        }
+        &:nth-child(7)>a{
+          color: #86bf4a;
+        }
+        &:last-child>a{
+          color:#d71d32;
+        }
+      }
+    }
+  }
+  .search{
+    height: 87px;
+    h1{
+      width: 182px;
+      height: 53px;
+      margin-top: 22px;
+      position: absolute;
+      left: 43%;
+      background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/layout/logo-en.png?173272e8fce) no-repeat 50%;
+      cursor: pointer;
+    }
+    .search-right{
+      float: right;
+      margin-top: 40px;
+      form{
+        float: left;
+      }
+      input{
+        width: 228px;
+        height: 24px;
+        padding: 1px,2px,1px,10px;
+      }
+      a{
+        display: inline-block;
+        width: 78px;
+        height: 28px;
+        vertical-align: top;
+
+        background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/layout/search.png?173272e8fd2) no-repeat 50%;
+        background-color: #000000;
+        border:none;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  nav{
+    background-color: #3a3a3a;
+    height: 40px;
+    li{
+      float: left;
+      font-size: 14px;
+      line-height: 40px;
+      padding-right: 46px;
+      margin-right: 36px;
+      a{
+        color: white;
+        cursor: pointer;
+        &:hover{
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+  } 
+}
+
+footer{
+  background-color: #000000;
+  color: white;
+  box-sizing: border-box;
+  .promise{
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    li{
+    float: left;
+    margin-right: 60px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    .promise-red{
+        color: red;
+        margin-right: 3px;
+      }
+    }
+  }
+  .footerHelp{
+    line-height: 24px;
+    padding: 15px 0;
+    border-top: 1px solid #666;
+    dl{
+      float: left;
+      margin-left: 123px;
+      dt{
+        height: 24px;
+      }
+      dd{
+        height: 24px;
+        color:#666;
+        a{
+          color:#666;
+          &:hover{
+            border-bottom:1px solid #666 ;
+          }
+        }
+      }
+    }
+    dl:first-child{
+      margin-left: 0;
+    }
+  }
+  .footer-link{
+    padding: 10px 0 14px 0px;
+    position: relative;
+    .left-flag{
+      margin-top: 3px;
+      position: absolute;
+      left: 0;
+      top: 12px;
+      a{
+        display: inline-block;
+        float: left;
+        border-radius: 2px;
+        margin-right: 8px;
+        background-color: #fff;
+        // width: 76px;
+        height: 34px;
+      }
+      a:first-child>img{
+        margin-top: 5px;
+      }
+
+    }
+    .links{
+      padding-left: 300px;
+      word-break: keep-all;
+      font-size: 12px;
+      line-height: 20px;
+      a{
+        color: #666;
+      }
+      span{
+        padding: 0 10px;
+        color: #666;
+      }
+    }
+    .copyright{
+      color: #666;
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+  .footer-container{
+    line-height: 48px;
+  }
+  
+}
+
+.clear::after{
+  content: "";
+  display: block;
+  clear: both;
+}
