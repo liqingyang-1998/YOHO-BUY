@@ -55,7 +55,6 @@ export default class Footer{
     str += "<div class='link-info'>友情链接：</div>"
     str += "</div>"
     str += "</div>"
-    return str;
-    
+    return str;    
   }
 }

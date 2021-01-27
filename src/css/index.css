@@ -1,9 +1,9 @@
 .carousel {
-  margin-top: 10px;
-  cursor: pointer; }
+  margin-top: 10px; }
   .carousel .imgBox {
     height: 430px;
     position: relative;
+    cursor: pointer;
     overflow: hidden; }
     .carousel .imgBox img {
       position: absolute;
@@ -43,7 +43,15 @@
       background-color: #fff;
       top: 50%;
       margin-top: -30px;
-      opacity: .55; }
+      opacity: .55;
+      padding-top: 13px;
+      box-sizing: border-box; }
+      .carousel .imgBox .bnt a:hover {
+        opacity: 0.8; }
+      .carousel .imgBox .bnt a span {
+        font-size: 32px;
+        color: #59585a;
+        font-weight: bold; }
     .carousel .imgBox .bnt .next {
       right: 50%;
       margin-right: -575px; }

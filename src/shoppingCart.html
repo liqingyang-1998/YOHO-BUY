@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>购物车 | YOHO!BUY 有货</title>
+  <link rel="stylesheet" href="./css/current.css">
+  <link rel="stylesheet" href="./css/logHeader.css">
+  <link rel="stylesheet" href="./css/shopCart.css">
+</head>
+<body>
+  <header></header>
+  <div class="shop-cart clear"></div>
+  <footer></footer>
+  <script type="module">
+    import LogHeader from './js/ES6/LogHeader.js';
+    import Footer from './js/ES6/footer.js';
+    import ShopCart from './js/ES6/ShopCart.js'
+    init();
+    function init(){
+      let logHeader = new LogHeader();
+      let footer = new Footer();
+      let shopCart = new ShopCart();
+      logHeader.appendTo("header");
+      shopCart.appendTo(".shop-cart");
+      footer.appendTo("footer");
+    }
+  </script>
+</body>
+</html>

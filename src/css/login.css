@@ -1,25 +1,3 @@
-header {
-  border-bottom: 2px solid #222;
-  margin: 0 0 20px; }
-  header .top {
-    width: 990px; }
-    header .top .logo {
-      display: block;
-      float: left;
-      line-height: 66px;
-      font-size: 0; }
-      header .top .logo img {
-        vertical-align: middle;
-        border: none; }
-    header .top ul {
-      float: right; }
-      header .top ul li {
-        float: left;
-        line-height: 66px;
-        padding: 0 10px; }
-        header .top ul li a {
-          color: #000; }
-
 .main {
   overflow: hidden; }
   .main p {
@@ -48,3 +26,79 @@ header {
     .main form .loginBox {
       margin-top: 107px;
       padding-left: 85px; }
+      .main form .loginBox .login-type {
+        width: 270px;
+        height: 46px;
+        margin-bottom: 25px; }
+        .main form .loginBox .login-type #device-bg {
+          width: 40px;
+          height: 40px;
+          background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/sprite.passport.png?t=1594090252043) no-repeat -369px -108px;
+          float: right;
+          cursor: pointer; }
+        .main form .loginBox .login-type .type-tip {
+          width: 120px;
+          height: 30px;
+          background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/sprite.passport.png?t=1594090252043) no-repeat -323px -70px;
+          float: right;
+          background-size: 595px 298px; }
+      .main form .loginBox .desktop-login > div {
+        margin-bottom: 25px; }
+      .main form .loginBox .desktop-login .relative {
+        position: relative; }
+      .main form .loginBox .desktop-login .title {
+        float: left;
+        font-size: 20px; }
+      .main form .loginBox .desktop-login .country {
+        float: right;
+        color: #b9b9b9; }
+      .main form .loginBox .desktop-login .login-switch {
+        height: 27px;
+        background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/sprite.passport.png?t=1594090252043) no-repeat -323px 0;
+        border-radius: 13px;
+        font-size: 14px; }
+        .main form .loginBox .desktop-login .login-switch .left {
+          width: 146px;
+          height: 27px;
+          text-align: center;
+          line-height: 27px;
+          border-radius: 13px;
+          position: absolute;
+          left: 0;
+          cursor: pointer; }
+        .main form .loginBox .desktop-login .login-switch .right {
+          width: 146px;
+          height: 27px;
+          text-align: center;
+          line-height: 27px;
+          border-radius: 13px;
+          position: absolute;
+          right: 0;
+          cursor: pointer; }
+        .main form .loginBox .desktop-login .login-switch .selected {
+          background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/sprite.passport.png?t=1594090252043) no-repeat -323px -35px;
+          color: white; }
+      .main form .loginBox .desktop-login input {
+        width: 268px;
+        height: 43px;
+        border: 1px solid #dbdbdb;
+        color: 0, 0, 0, 0.5;
+        text-indent: 10px;
+        font-size: 16px;
+        line-height: 1.2;
+        outline: none; }
+      .main form .loginBox .desktop-login .captcha {
+        width: 174px;
+        height: 86.4px; }
+      .main form .loginBox .desktop-login button {
+        width: 274px;
+        height: 46px;
+        background-color: #ff1901;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 10px;
+        font-size: 20px;
+        line-height: 46px;
+        border: none;
+        outline: none;
+        cursor: pointer; }

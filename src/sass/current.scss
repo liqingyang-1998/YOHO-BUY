@@ -10,6 +10,13 @@
   margin-right: 2px;
   vertical-align: middle;
 }
+@mixin  iconfont-bg($url,$wi:16){
+  display: inline-block;
+            background: url($url) no-repeat;
+            vertical-align: middle;     
+            width: $wi+px;
+            height: 16px;
+}
 $arr:(-64 -86 10 5)(0 -86 11 14)(-107 -44 15 13)(-107 -65 16 11);
 
 *{
@@ -106,11 +113,24 @@ header{
             @include icon-bg($x,$y,$w,$h)
           }
         }
+        &:nth-child(6)>a{
+          span{
+            @include iconfont-bg("../assets/img/kefu.png");
+            margin-top: -5px;
+            margin-right: 2px;
+          }
+        }
         &:nth-child(7)>a{
           color: #86bf4a;
+          span{
+            @include iconfont-bg("../assets/img/weixin.png",19)
+          }
         }
         &:last-child>a{
           color:#d71d32;
+          span{
+            @include iconfont-bg("../assets/img/shouji.png")
+          }
         }
       }
     }
@@ -131,12 +151,12 @@ header{
       margin-top: 40px;
       form{
         float: left;
-      }
-      input{
-        width: 228px;
-        height: 24px;
-        padding: 1px,2px,1px,10px;
-      }
+        input{
+          width: 228px;
+          height: 24px;
+          padding: 1px,2px,1px,10px;
+        }     
+      }      
       a{
         display: inline-block;
         width: 78px;
@@ -146,6 +166,12 @@ header{
         background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/layout/search.png?173272e8fd2) no-repeat 50%;
         background-color: #000000;
         border:none;
+        cursor: pointer;
+      }
+      &>span{
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
         cursor: pointer;
       }
     }
@@ -163,6 +189,8 @@ header{
       a{
         color: white;
         cursor: pointer;
+        font-size: 14px;
+        line-height: 14px;
         &:hover{
           border-bottom: 2px solid white;
         }

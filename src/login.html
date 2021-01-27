@@ -6,19 +6,10 @@
   <title>用户登录</title>
   <link rel="stylesheet" href="./css/current.css">
   <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/logHeader.css">
 </head>
 <body>
-  <header>
-    <div class="top center-content clear">
-      <a class="logo" href="index.html"><img src="https://static.yohobuy.com/newheader/img/logo_e.png?imageView2/2/interlace/1/q/75" alt="logo"></a>
-      <ul>
-        <li>Hi~ [ <a href="#">请登录</a> ] [<a href="#">免费注册</a> ]</li>
-        <li><a href="#">MY有货</a></li>
-        <li><a href="#">订单中心</a></li>
-        <li><a href="#">客户服务</a></li>
-      </ul>
-    </div>
-  </header>
+  <header></header>
   <div class="main center-content clear">
     <p class="center-content">为保障账户安全与正常使用，依《网络安全法》相关要求，会员账号需绑定手机号。<span>如您尚未绑定手机号，请尽快完成，</span>>感谢您对Yoho!Buy有货的理解与支持！</p>
     <div class="left">
@@ -32,14 +23,13 @@
           </div>
         </div>
         <div class="desktop-login">
-          <div>
-            <h2>会员登录</h2>
-            <span>中国 +86</span>
+          <div class="relative clear">
+            <h2 class="title">会员登录</h2>
+            <span class="country">中国 +86</span>
           </div>
-          <div class="switch">
+          <div class="login-switch relative">
             <div class="left">普通登录</div>
             <div class="right">手机验证码登录</div>
-
           </div>
           <div>
             <input type="text" name="account" placeholder="邮箱/手机号">
@@ -47,7 +37,7 @@
           <div>
             <input type="text" name="password" placeholder="密码">
           </div>
-          <div class="captcha"></div>
+          <div class="captcha relative"></div>
           <button type="submit">登录</button>
         </div>
       </div>
@@ -56,10 +46,29 @@
   <footer></footer>
   <script type="module">
     import Footer from "./js/ES6/footer.js"
+    import LogHeader from "./js/ES6/LogHeader.js"
+    var prev,left;
     init();
     function init(){
       let footer = new Footer();
-      footer.appendTo("footer")
+      let logHeader = new LogHeader();
+      footer.appendTo("footer");
+      logHeader.appendTo("header")
+      let login = document.querySelector(".login-switch");
+      left = login.querySelector(".left")
+      login.addEventListener("click",clickhandler);
+      loginChange(left);
+
+    }
+    function clickhandler(e){
+      loginChange(e.target);
+    }
+    function loginChange(elem){
+      if(prev){
+        prev.classList.remove("selected")
+      }
+      prev = elem;
+      prev.classList.add("selected")
     }
   </script>
 </body>

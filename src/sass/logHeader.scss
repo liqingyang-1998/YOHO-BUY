@@ -1,0 +1,29 @@
+header{
+  border-bottom:2px solid #222 ;
+  margin: 0 0 20px;
+  .top{
+    width: 990px;
+    .logo{
+      display: block;
+      float: left;
+      line-height: 66px;
+      font-size: 0;
+      // height: 66px;
+      img{
+        vertical-align: middle;
+        border: none;
+      }
+    }
+    ul{
+      float: right;
+      li{
+        float: left;
+        line-height: 66px;
+        padding: 0 10px;
+        a{
+          color: #000;
+        }
+      }
+    }
+  }
+}

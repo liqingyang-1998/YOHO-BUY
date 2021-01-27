@@ -4,6 +4,7 @@ export default class Header{
   groupCN = ["集团官网","男生潮流","女生潮流","新鲜好去处","潮流嘉年华"];
   groupMap;
   groupMapLis;
+  shopCart;
   constructor(){
     this.elem = Utils.ce("div");
     this.elem.innerHTML = this.renderHTML();
@@ -17,8 +18,13 @@ export default class Header{
     this.groupMap = this.elem.querySelector(".groupMap");
     // console.log(this.groupMap)
     this.groupMapLis = this.groupMap.querySelectorAll("li")
+    this.shopCart = this.elem.querySelector(".search-right").querySelector("span")
+    this.shopCart.addEventListener("click",e=>this.clickhandler(e));
     this.groupMap.addEventListener("mouseover",e=>this.mousehandler(e))
     this.groupMap.addEventListener("mouseout",e=>this.mousehandler(e))
+  }
+  clickhandler(e){
+    window.location.href = "./shoppingCart.html";
   }
   mousehandler(e){
     if(e.target.nodeName !== "LI") return;
@@ -41,14 +47,14 @@ export default class Header{
     str += `</ul></div>
       <div class="left info"><span></span><a href="javascript:viod(0)">关于防诈骗的重要提醒</a></div>
       <ul>
-        <li>Hi~ [ <a href="#">请登录</a> ] [<a href="#">免费注册</a> ]</li>
+        <li>Hi~ [ <a href="./login.html">请登录</a> ] [<a href="#">免费注册</a> ]</li>
         <li><span class="span-tg"></span><a href="#">MY有货</a><span class="span-icon"></span></li>
         <li><span class="span-tg"></span><span class="span-icon"></span><a href="#">我的订单</a></li>
         <li><span class="span-tg"></span><span  class="span-icon"></span><a href="#">我的收藏</a></li>
         <li><span class="span-tg"></span><span class="span-icon"></span><a href="#">消息</a></li>
-        <li><span class="span-tg"></span><span></span><a href="#">客户服务</a></li>
-        <li><span class="span-tg"></span><span></span><a href="#">关注有货</a></li>
-        <li><span class="span-tg"></span><span></span><a href="#">手机版</a></li>
+        <li><span class="span-tg"></span><a href="#"><span></span>客户服务</a></li>
+        <li><span class="span-tg"></span><a href="#"><span></span> 关注有货</a></li>
+        <li><span class="span-tg"></span><a href="#"><span></span>手机版</a></li>
       </ul>
     </div>
   </div>
@@ -60,7 +66,7 @@ export default class Header{
       <form action="#">
         <input type="text"><a></a>   
       </form>
-      <span>gou</span>
+      <span class="iconfont icon-tianchongxing-"></span>
     </div>
   </div>
   <nav>

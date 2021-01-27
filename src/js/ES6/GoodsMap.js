@@ -17,7 +17,7 @@ export default class GoodsMap{
     str += `<h2 class='title'>${title}</h2>`;
     str += "</div>" ;
     str += "<ul class='g-list clear'>"
-    console.log(data);
+    // console.log(data);
     str += data.reduce(function(value,item){
       return value+`<li><a href="#"><img src="${item}"></a></li>`;
     },"")

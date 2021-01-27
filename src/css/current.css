@@ -123,10 +123,30 @@ header {
           margin-top: -2px;
           margin-right: 2px;
           vertical-align: middle; }
+        header .head ul li:nth-child(6) > a span {
+          display: inline-block;
+          background: url("../assets/img/kefu.png") no-repeat;
+          vertical-align: middle;
+          width: 16px;
+          height: 16px;
+          margin-top: -5px;
+          margin-right: 2px; }
         header .head ul li:nth-child(7) > a {
           color: #86bf4a; }
+          header .head ul li:nth-child(7) > a span {
+            display: inline-block;
+            background: url("../assets/img/weixin.png") no-repeat;
+            vertical-align: middle;
+            width: 19px;
+            height: 16px; }
         header .head ul li:last-child > a {
           color: #d71d32; }
+          header .head ul li:last-child > a span {
+            display: inline-block;
+            background: url("../assets/img/shouji.png") no-repeat;
+            vertical-align: middle;
+            width: 16px;
+            height: 16px; }
   header .search {
     height: 87px; }
     header .search h1 {
@@ -142,10 +162,10 @@ header {
       margin-top: 40px; }
       header .search .search-right form {
         float: left; }
-      header .search .search-right input {
-        width: 228px;
-        height: 24px;
-        padding: 1px,2px,1px,10px; }
+        header .search .search-right form input {
+          width: 228px;
+          height: 24px;
+          padding: 1px,2px,1px,10px; }
       header .search .search-right a {
         display: inline-block;
         width: 78px;
@@ -154,6 +174,11 @@ header {
         background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/layout/search.png?173272e8fd2) no-repeat 50%;
         background-color: #000000;
         border: none;
+        cursor: pointer; }
+      header .search .search-right > span {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
         cursor: pointer; }
   header nav {
     background-color: #3a3a3a;
@@ -166,7 +191,9 @@ header {
       margin-right: 36px; }
       header nav li a {
         color: white;
-        cursor: pointer; }
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 14px; }
         header nav li a:hover {
           border-bottom: 2px solid white; }
 

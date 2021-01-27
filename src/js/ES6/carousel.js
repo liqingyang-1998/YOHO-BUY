@@ -89,8 +89,8 @@ export default class Carousel{
     },"")
     str += "</ul>"
     str += "<div class='bnt'>"
-    str += "<a class='prev' href='javascript:void(0)'></a>"
-    str += "<a class='next' href='javascript:void(0)'></a>"
+    str += "<a class='prev' href='javascript:void(0)'><span class='iconfont icon-shangyige'></span></a>"
+    str += "<a class='next' href='javascript:void(0)'><span class='iconfont icon-xiayige'></span></a>"
     str += "</a>"
     str += "</div>"
     return str;
