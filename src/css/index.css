@@ -72,6 +72,13 @@
         font-size: 16px;
         text-align: center;
         font-weight: 500; }
+      .main .Box .map-header a {
+        color: #000;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 11px 15px;
+        font-size: 14px; }
     .main .Box .g-list li {
       margin: 0 0 8px 8px;
       float: left; }
@@ -84,3 +91,18 @@
           border: none; }
           .main .Box .g-list li a img:hover {
             opacity: 0.8; }
+    .main .Box .g-list .goodsMap-list {
+      height: 228px;
+      padding: 10px 0;
+      background-color: #f8f8f8;
+      overflow: hidden;
+      width: 185px; }
+      .main .Box .g-list .goodsMap-list a {
+        float: left;
+        width: 50%;
+        text-align: center;
+        color: #000;
+        overflow: hidden;
+        height: 38px;
+        line-height: 38px;
+        font-size: 14px; }

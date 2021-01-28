@@ -10,17 +10,39 @@ export default class GoodsMap{
     parent.appendChild(this.elem);
     // this.ready();
   }
-  renderHTML(data,bool){
+  renderHTML(data,bool=false){
     var str = "";
     var title = data.shift()
     str += "<div class='map-header'>";
     str += `<h2 class='title'>${title}</h2>`;
+    if(title !== "人气单品"){
+      str += `<a href='#'>MORE</a>`
+    }
     str += "</div>" ;
     str += "<ul class='g-list clear'>"
     // console.log(data);
-    str += data.reduce(function(value,item){
-      return value+`<li><a href="#"><img src="${item}"></a></li>`;
-    },"")
+    if(!bool){
+      str += data.reduce(function(value,item){
+        return value+`<li><a href="#"><img src="${item}"></a></li>`;
+      },"")
+    }else{
+      var frist1 = data.splice(0,2);
+      var frist = data.splice(0,4);
+      var otherImg = data.splice(0,9);
+      str += `<li>${frist1.reduce(function(value,item){
+        return value+`<a href="#"><img src="${item}"></a>`
+      },"")}</li>`
+      str += frist.reduce(function(value,item,index){
+        return value+`<li><a href="#"><img src="${item}"></a></li>`;
+      },"")
+      str += `<li class='goodsMap-list'>${data.reduce(function(value,item){
+        return value+"<a href='#'>"+item+"</a>";
+      },"")}</li>`
+      str += otherImg.reduce(function(value,item){
+        return value+`<li><a href="#"><img src="${item}"></a></li>`;
+      },"")
+    }
+    
     str += "</ul>"
     return str;
   }
