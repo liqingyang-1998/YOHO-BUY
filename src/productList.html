@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>商品列表</title>
+  <link rel="stylesheet" href="./css/current.css">
+  <link rel="stylesheet" href="./css/productList.css">
+  <link rel="stylesheet" href="./assets/iconfont.css">
 </head>
 <body>
-  
+  <header></header>
+  <div class="center-content main"></div>
+  <footer></footer>
+  <script type="module">
+     import Header from "./js/ES6/header.js"
+      import Footer from "./js/ES6/footer.js"
+      import ProductList from "./js/ES6/ProductList.js"
+      init();
+      function init(){
+      let header = new Header();
+      let footer = new Footer();
+      let product = new ProductList();
+      product.appendTo(".main")
+      header.appendTo("header");
+      footer.appendTo("footer");
+      }
+  </script>
 </body>
 </html>

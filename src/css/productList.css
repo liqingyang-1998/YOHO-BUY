@@ -1,0 +1,92 @@
+.main .banner {
+  position: relative;
+  height: 150px;
+  background: url(https://img12.static.yhbimg.com/yhb-img02/2019/11/19/14/02ac1aebac148355e22cb43175e34d2706.jpg?imageView2/2/interlace/1/q/100); }
+  .main .banner .wrap {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    top: 50%;
+    margin-top: -16px;
+    text-align: right; }
+    .main .banner .wrap a {
+      display: inline-block;
+      height: 20px;
+      margin-right: 5px;
+      line-height: 20px;
+      border: 1px solid #fff;
+      padding: 5px 10px;
+      color: white;
+      font-size: 12px; }
+    .main .banner .wrap .qrcode-box {
+      display: inline-block;
+      height: 20px;
+      line-height: 20px;
+      display: inline-block;
+      margin-right: 25px;
+      border: 1px solid #fff;
+      padding: 5px 10px;
+      color: white;
+      font-size: 12px;
+      vertical-align: middle; }
+      .main .banner .wrap .qrcode-box .qrcode-icon {
+        background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/sprite.scss.png?t=1594090251211) no-repeat -24px -62px;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        position: relative;
+        top: 2px; }
+
+.main .path {
+  display: block;
+  font-size: 12px;
+  padding: 15px 0;
+  height: 18px;
+  line-height: 18px;
+  color: #444; }
+
+.main .list-right {
+  width: 970px;
+  float: right; }
+  .main .list-right .filter-box {
+    border: 1px solid #dfdfdf; }
+    .main .list-right .filter-box dl {
+      padding: 10px 15px;
+      font-size: 12px;
+      border-top: 1px solid #dfdfdf; }
+      .main .list-right .filter-box dl:first-child {
+        border-top: none;
+        padding: 5px 15px; }
+      .main .list-right .filter-box dl dt {
+        float: left;
+        width: 75px;
+        line-height: 30px;
+        font-weight: 700; }
+      .main .list-right .filter-box dl dd {
+        float: left;
+        padding: 0 10px;
+        margin-right: 30px;
+        line-height: 30px;
+        cursor: pointer;
+        color: #666; }
+        .main .list-right .filter-box dl dd span {
+          display: inline-block;
+          width: 22px;
+          height: 22px;
+          border: 1px solid #ccc;
+          margin-bottom: -6px;
+          margin-right: 5px; }
+      .main .list-right .filter-box dl:nth-child(3) dd {
+        margin-right: 3px; }
+  .main .list-right .sort {
+    height: 48px;
+    background-color: #f5f7f6;
+    margin: 10px 0; }
+    .main .list-right .sort .sort-type {
+      color: #999;
+      font-size: 12px;
+      padding: 0 10px;
+      line-height: 48px; }
+    .main .list-right .sort .pager-wrap {
+      float: right;
+      padding: 15px 0; }
