@@ -1,6 +1,6 @@
 import Utils from "./Utils.js";
 export default class SecondaryMenu{
-  list=["上装","下装","热门品牌"];
+  list=["上装","下装","热门品牌","鞋履","包","服饰","首饰"];
   dl;
   constructor(data){
     this.elem = Utils.ce("div");

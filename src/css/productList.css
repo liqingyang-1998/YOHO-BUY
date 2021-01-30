@@ -90,3 +90,56 @@
     .main .list-right .sort .pager-wrap {
       float: right;
       padding: 15px 0; }
+  .main .list-right .goods-container {
+    padding-top: 25px;
+    position: relative;
+    width: 980px; }
+    .main .list-right .goods-container .good-info {
+      width: 235px;
+      margin-bottom: 35px;
+      margin-right: 10px;
+      float: left; }
+      .main .list-right .goods-container .good-info .good-img {
+        height: 315px;
+        width: 100%;
+        position: relative; }
+        .main .list-right .goods-container .good-info .good-img a {
+          display: block;
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          color: #fff; }
+          .main .list-right .goods-container .good-info .good-img a img {
+            width: 100%;
+            height: 100%; }
+        .main .list-right .goods-container .good-info .good-img .few-tag {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          height: 16px;
+          color: #fff;
+          font-size: 12px;
+          text-align: center;
+          bottom: 0;
+          background-color: #ffac5b; }
+      .main .list-right .goods-container .good-info .good-text {
+        height: 80px;
+        color: #222;
+        font-size: 12px;
+        text-align: left;
+        overflow: hidden; }
+        .main .list-right .goods-container .good-info .good-text > a {
+          margin-top: 16px;
+          line-height: 1.5;
+          display: block;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: #000000; }
+        .main .list-right .goods-container .good-info .good-text .price {
+          margin-top: 5px;
+          line-height: 22px; }
+          .main .list-right .goods-container .good-info .good-text .price .market-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-right: 15px; }

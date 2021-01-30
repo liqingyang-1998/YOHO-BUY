@@ -8,7 +8,19 @@ export default class Header {
   shopCart;
   clothes = {
     "menu": ["上装","T恤", "卫衣", "夹克", "衬衫", "POLO", "防风外套","下装","休闲裤", "牛仔裤", "运动裤", "短裤", "工装裤","热门品牌","Dickies", "Levi's", "DUSTY", "THETHING", "viishow", "STORE by NIGO®", "NBA STYLE", "鬼洗"],
-    "right": ["https://img10.static.yhbimg.com/yhb-img01/2019/09/06/15/01b9fb0416a35473b24f8fd2aae06a6ec8.jpg?imageView2/2/w/337/h/250/q/90", "IN季新品"],
+    "right": ["https://img10.static.yhbimg.com/yhb-img01/2019/09/06/15/01b9fb0416a35473b24f8fd2aae06a6ec8.jpg?imageView2/2/w/337/h/250/q/90", "IN季新品全面开售"],
+  }
+  shoes = {
+    "menu":["鞋履","运动鞋","板鞋","跑步鞋","篮球鞋","靴子","热门品牌","DC","CAT","STARTER","PENSOLE","VEJA","TRENDIANO","Onitsuka Tiger"],
+    "right": ["https://img11.static.yhbimg.com/yhb-img01/2019/09/06/15/010d8518a8d63176d49126e91801c8c8ab.jpg?imageView2/2/w/337/h/250/q/90","人气鞋靴"]
+  }
+  bag = {
+    "menu":["包","双肩包","手拎包/单肩包","腰包/胸包","钱包/卡包","旅行箱","热门品牌","COMBACK","Mandarina Duck","初弎","SPRAYGROUND","Draconite","Herschel Supply","RAWROW","STAYREAL","SubCrew 箱包","the MAD HATcher","BABAMA","TYAKASHA"],
+    "right": ["https://img10.static.yhbimg.com/yhb-img01/2019/09/06/15/01a40d82ac6a65d20ef6b7b9b37463ae62.jpg?imageView2/2/w/337/h/250/q/90","出街必备包袋集合"]
+  }
+  others = {
+    "menu":["服饰","帽子","袜子","手表","腰带","配饰","首饰","项链/吊坠","手链","耳钉","戒指","热门品牌","MYFUN","New Era","Daniel Wellington","Caivin Klein","BBF","AVI-8","焕懋手表集合店","G-SHOCK","PINKORANGE","MLB WATCH","oammi","oasso"],
+    "right": ["https://img10.static.yhbimg.com/yhb-img01/2019/09/06/15/011f68bc9e61585fb7c073ab891a8e0b01.jpg?imageView2/2/w/337/h/250/q/90","热门小物优选"]
   }
   constructor() {
     this.elem = Utils.ce("div");
@@ -25,8 +37,17 @@ export default class Header {
     this.groupMapLis = this.groupMap.querySelectorAll("li")
     this.shopCart = this.elem.querySelector(".search-right").querySelector("span");
     let clothes = this.elem.querySelector("#clothes")
-    let secondaryMenu = new SecondaryMenu(this.clothes);
-    secondaryMenu.appendTo(clothes)
+    let shoes = this.elem.querySelector("#shoes")
+    let bag = this.elem.querySelector("#bag")
+    let others = this.elem.querySelector("#others")
+    let clothesMenu = new SecondaryMenu(this.clothes);
+    let shoesMenu = new SecondaryMenu(this.shoes);
+    let bagMenu = new SecondaryMenu(this.bag);
+    let othersMenu = new SecondaryMenu(this.others);
+    clothesMenu.appendTo(clothes)
+    shoesMenu.appendTo(shoes)
+    bagMenu.appendTo(bag)
+    othersMenu.appendTo(others)
     this.shopCart.addEventListener("click", e => this.clickhandler(e));
     this.groupMap.addEventListener("mouseover", e => this.mousehandler(e))
     this.groupMap.addEventListener("mouseout", e => this.mousehandler(e))
@@ -68,7 +89,7 @@ export default class Header {
   </div>
   <div class="search center-content">
     <h1 class="logo">
-      <a href="#"></a>
+      <a href="./index.html"></a>
     </h1>
     <div class="search-right">
       <form action="#">

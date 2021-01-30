@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/current.css">
+  <link rel="stylesheet" href="./css/details.css">
+  <link rel="stylesheet" href="./assets/iconfont.css">
+</head>
+<body>
+  <header></header>
+  <div class="main"></div>
+  <footer></footer>
+  <script type="module">
+    import Header from "./js/ES6/header.js"
+    import Footer from "./js/ES6/footer.js"
+    import Details from "./js/ES6/Details.js"
+    init();
+    function init(){
+      let header = new Header();
+      let footer = new Footer();
+      let details = new Details();
+      header.appendTo("header");
+      details.appendTo(".main");
+      footer.appendTo("footer");
+    }
+  </script>
+</body>
+</html>

@@ -106,3 +106,19 @@
         height: 38px;
         line-height: 38px;
         font-size: 14px; }
+
+.s-more {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px; }
+  .s-more a {
+    display: block;
+    height: 35px;
+    width: 120px;
+    margin: 0 auto 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center; }

@@ -1,0 +1,76 @@
+{
+  "carousel":["https://img11.static.yhbimg.com/yhb-img01/2020/11/12/09/015b1adc66d57b3749cd44b692ee5a701f.jpg?imageView2/2/w/1125/h/420","https://img10.static.yhbimg.com/yhb-img01/2020/10/09/09/01ae3219ce90218a4811b5571ed685c862.jpg?imageView2/2/w/1125/h/420","https://img11.static.yhbimg.com/yhb-img01/2020/10/09/09/01ad0219c3ade5829d225eb49d396fab6f.jpg?imageView2/2/w/1125/h/420","https://img11.static.yhbimg.com/yhb-img01/2020/08/13/15/010ffcfcabefff7a8cfda21ca090cb1cb2.jpg?imageView2/2/w/1125/h/420"],
+  "mapList":{
+    "one":["人气单品","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/013ec6ba6c4f1859b7a35b94db32288d89.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/10/09/14/01cc173da1cd66e96aa9c49d54384517f4.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/0187e6bff0589d47be8927297861b5b06e.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/01ba129add4fce6ed7d55b2ae9de660891.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/11/19/09/01f8c70f1e0134c84c7a729f4a818c6628.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/01916a3885be241dee330f5e813b15a421.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/11/19/09/0143ffc6e9b063cc41d46d906baa1c4ab3.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/23/10/012eaa1ceb8772d28e214330dfb5e041b0.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/06/01/14/01f50572bf142d5f4b29d728f353a95b76.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/08/13/15/0169431db00fc5d117778b977d136e4dde.jpg?imageView2/2/w/378/h/248",false],
+    "two":["潮流上装","https://img11.static.yhbimg.com/yhb-img01/2019/03/25/11/017be7cc88b521b7ebbcd6a71f4349eb7b.jpg?imageView2/2/w/185/h/152","https://img10.static.yhbimg.com/yhb-img01/2020/10/27/17/01d2aadb2f4891263c20c4d0de61ab6059.jpg?imageView2/2/w/185/h/152","https://img11.static.yhbimg.com/yhb-img01/2020/09/17/14/01782bdb5d805a74477ae2327e9b8c1b79.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/01ba856188e5e98c05a2125e507c9f6520.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/01a42759cf1767e046e1f482a63c02b688.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/0198af91c7b065b3224865e96c2407749a.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/03/03/13/01e4df7a7de86c3448d1c23cc34ecc3d7c.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/01d04299b229b61d08a891df1de766495f.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/0163c96fae4ba21802764c24da9d4a51ef.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/23/10/017e7ed16044306f9e4df1616bc7205005.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/012f629609ed95ac3cc4ba4afdeaf7be95.jpg?imageView2/2/w/222/h/298","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/01a056dcc75183db758e26bce139025c1f.jpg?imageView2/2/w/222/h/298","https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/01c4b4108b6c090f92f352c32ed8494cf1.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/01e06d70fa91687464472c6ba54e2fc735.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/0135217f404c9c5d8c0ea0f91267f72183.jpg?imageView2/2/w/222/h/298","T恤","卫衣","夹克","衬衫","POLO","风衣","PUMA","DC","Timberiand","Converse","VANS","HIPANDA",true],
+    "three":["潮流下装","https://img11.static.yhbimg.com/yhb-img01/2019/03/25/11/013eb545806c6c4b7acb8b4ba4455bb176.jpg?imageView2/2/w/185/h/152","https://img10.static.yhbimg.com/yhb-img01/2020/10/27/17/01759e0d4d59f8fdcf2d99e4609d66767e.jpg?imageView2/2/w/185/h/152","https://img10.static.yhbimg.com/yhb-img01/2020/03/03/13/0198ba29d1ff4749f09c810943b86da321.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/015c206a6238bdc4e65f6b45e5c40e941d.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/03/10/01e766ef3241a6821e738dcc9b1018d075.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/01d39458b45f61c96ee7812fd79d9f7dac.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/03/03/13/017311aa9f1befb8ec79a65a4621e8d882.jpg?imageView2/2/w/378/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0135997eb374101d08ac388ce6671350cb.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/010aa1efb21aed638f2cff8a04e165d837.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/010d23c5669702d97c81a1a76c0d264665.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/0153d1bf58e1e10ebd6b96e2b9b110476d.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0174b2d300d3df04535b00f08ed9e30cab.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/01ce4e4023249c8b5bfc0057f56abefe1e.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/01e8037abe8cc8387b709b0aedea228873.jpg?imageView2/2/w/222/h/298","https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/01586d76b24dfee4d5d5ed6555d42b54cf.jpg?imageView2/2/w/222/h/298","休闲裤","牛仔裤","运动裤","工装裤","束口裤","短裤","Lee","鬼洗","Dickies","DUSTY","Levi's","THETHING",true],
+    "four":["时尚鞋履","https://img10.static.yhbimg.com/yhb-img01/2019/03/25/11/01027a0c6ba18c415ba5c85c9e5eaee985.jpg?imageView2/2/w/185/h/152","https://img11.static.yhbimg.com/yhb-img01/2020/10/27/17/01b9c2766eff7e5d632ce2e9d1b2f30686.jpg?imageView2/2/w/185/h/152","https://img11.static.yhbimg.com/yhb-img01/2020/03/03/14/013fff0bebe8a49cceb41082b5f350de60.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/23/10/011b75a17b69e16333e41572037f06ce1b.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/06/28/10/0192245a4c91a7a515aebf5ee114859736.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/06/28/10/01c32fc3faf0186675c97ba2f1db0a0e3a.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/03/03/14/018a29233c38c6f01ef4321f478f9ca58f.jpg?imageView2/2/w/378/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0176facf4fa74a833fd6c5e242f497024a.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/03/10/019e01b6c12e8425c2246993b4b1c9b3a3.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/16/10/0190436cbf165ef49d3e017f4aebdd6f28.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01765da920a312d21f5222b39453f64b49.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01e336f2a0ac34addaec957c62d82531f8.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/016074c1990b8f0639b5fd675316c5a31b.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01c54a0b864508085a32454a23b3abdf8f.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01b0757dfd57dec12a4e139cba5c16c2c8.jpg?imageView2/2/w/222/h/298","运动鞋","板鞋","运动跑鞋","篮球鞋","靴子","休闲/时装鞋","Reebok","COMMON","VEJA","MATNUT","LI-NING","adidas",true],
+    "five":["潮人配饰","https://img10.static.yhbimg.com/yhb-img01/2019/03/25/11/0117975cd30f5449efeac4d4b2f5824dbb.jpg?imageView2/2/w/185/h/152","https://img10.static.yhbimg.com/yhb-img01/2020/08/13/15/01b825491ab8fd376d71b8f96a0d0a0ef9.jpg?imageView2/2/w/185/h/152","https://img11.static.yhbimg.com/yhb-img01/2020/03/03/14/014ea793fd387c4965adaf5c41502a1bcb.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/07/03/10/01e645dd9b89e9dfd0aef4fd369a5680e1.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/011ccbf0003abdaa4cf2ed5362fdabb634.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/0123a962e180788e343f5d4c846ae95f86.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/0195633b501c21fd269899e6d78ba944e3.jpg?imageView2/2/w/378/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/01acff620ce265a6da92c8140181591809.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/01719d6668b278cf81a252ddef670977cb.jpg?imageView2/2/w/185/h/248","https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/0142aefe69791531a0d155913866272284.jpg?imageView2/2/w/185/h/248","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/01117b89c988b5cf1404ed283b32da5794.jpg?imageView2/2/w/222/h/298","https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/01e83614b4f0790a47eec068606b5c5555.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/03/31/17/0186026946568154a918b1d003c80f53d2.jpg?imageView2/2/w/222/h/298","https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/01917ce7cf0abf1b44105ae54406df7a5e.jpg?imageView2/2/w/222/h/298","https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0150024a21dadbdde8a2e5b498ea5e18e5.jpg?imageView2/2/w/222/h/298","单肩包","双肩包","腰包/胸包","钱包/卡包","旅行箱","邮差包","帽子","袜子","首饰","配饰","手表","太阳镜/眼镜",true]
+  },
+  "goods":[
+      {
+        "imgsrc":"https://img11.static.yhbimg.com/goodsimg/2020/06/17/17/013a7646799318d3c863d9d6eb0bcb37b7.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG 拼接印花短袖T恤",
+        "shop":"SMG",
+        "oldPrice":499,
+        "nowPrice":349,
+        "sellOut":true
+      },
+      {
+        "imgsrc":"https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0280b7477d623dc8f333586191fff50056.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG LOGO短袖T恤",
+        "shop":"SMG",
+        "oldPrice":399,
+        "nowPrice":199,
+        "sellOut":false
+      },
+      {
+        "imgsrc":"https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01c8bc9ca40836da3f4a989e7c990b3a8e.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG slogan短袖T恤",
+        "shop":"SMG",
+        "oldPrice":299,
+        "nowPrice":149,
+        "sellOut":false
+      },
+      {
+        "imgsrc":"https://img11.static.yhbimg.com/goodsimg/2020/06/29/14/010c4ff317ebed57ac7a1973f49fa4e286.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG 宽松日式夹克",
+        "shop":"SMG",
+        "oldPrice":799,
+        "nowPrice":389,
+        "sellOut":true
+      },
+      {
+        "imgsrc":"https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/0141dd38162a3172d837c86539e421e966.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG 字母印花短袖T恤",
+        "shop":"SMG",
+        "oldPrice":399,
+        "nowPrice":199,
+        "sellOut":false
+      },
+      {
+        "imgsrc":"https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/0263f4d3274d21780942bf09ee6463d867.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG 字母印花短袖T恤",
+        "shop":"SMG",
+        "oldPrice":399,
+        "nowPrice":199,
+        "sellOut":false
+      },
+      {
+        "imgsrc":"https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/023556155a0a8677a5357741de66289313.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG 字母印花短袖T恤",
+        "shop":"SMG",
+        "oldPrice":399,
+        "nowPrice":199,
+        "sellOut":false
+      },
+      {
+        "imgsrc":"https://img11.static.yhbimg.com/goodsimg/2020/06/18/17/01e4d02e4f90f723ad4628675288e7a3db.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
+        "title":"SMG 字母印花短袖T恤",
+        "shop":"SMG",
+        "oldPrice":399,
+        "nowPrice":199,
+        "sellOut":false
+      }
+    ]  
+}

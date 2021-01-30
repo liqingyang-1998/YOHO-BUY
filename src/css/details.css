@@ -1,0 +1,312 @@
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.banner {
+  background: #000000 url(https://img13.static.yhbimg.com/yhb-img02/2016/11/22/10/020a09847e9f2e40a12c8d78db739ad62c.jpg?imageMogr2/auto-orient/strip/thumbnail/x45/crop/1920x45);
+  height: 45px;
+  width: 100%; }
+  .banner a {
+    color: #000000; }
+  .banner img {
+    display: block;
+    height: 45px; }
+  .banner .opt {
+    margin-top: 5px; }
+  .banner .home {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin-right: 5px; }
+
+.detailsBox {
+  width: 1150px;
+  min-height: 560px; }
+  .detailsBox .img {
+    position: relative;
+    width: 420px;
+    height: 600px;
+    left: 0; }
+  .detailsBox .tags {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .detailsBox .img-show {
+    display: block;
+    width: 420px;
+    height: 560px; }
+  .detailsBox #big {
+    position: absolute; }
+  .detailsBox .move {
+    position: absolute;
+    width: 314px;
+    height: 314px;
+    background: url(https://cdn.yoho.cn/yohobuy-node/6.11.0/img/product/move.png?173272e9025);
+    right: 0; }
+  .detailsBox .move-over {
+    position: absolute;
+    width: 420px;
+    height: 560px;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: url(img/product/transparent.gif?173272e9029); }
+  .detailsBox .max {
+    width: 558px;
+    height: 558px;
+    border: 2px solid #b0b0b0;
+    background: #fff;
+    overflow: hidden;
+    left: 515px;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 0; }
+  .detailsBox .hide {
+    display: none !important; }
+  .detailsBox .thumbs {
+    width: 75px;
+    height: 560px;
+    margin-left: 10px;
+    margin-right: 60px;
+    overflow: hidden; }
+    .detailsBox .thumbs .thumb {
+      display: block;
+      width: 71px;
+      height: 96px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      border: 2px solid #b0b0b000; }
+    .detailsBox .thumbs .active {
+      border: 2px solid #000; }
+  .detailsBox .infos {
+    width: 585px; }
+  .detailsBox .name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px; }
+  .detailsBox .line {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px solid #eaeceb;
+    margin: 20px 0; }
+  .detailsBox .price-row {
+    display: inline-block;
+    height: 20px;
+    margin-bottom: 10px; }
+  .detailsBox .title {
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 5px;
+    line-height: 20px; }
+  .detailsBox .price {
+    color: #000;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle; }
+  .detailsBox .other-price {
+    color: #444;
+    text-decoration: line-through;
+    font-size: 13px; }
+  .detailsBox .desc {
+    display: inline-block;
+    margin-left: 20px; }
+  .detailsBox .promotion {
+    display: inline-block;
+    color: #d0021b;
+    border: 1px solid #d0021b;
+    font-size: 12px;
+    padding: 2px 4px;
+    margin-right: 20px;
+    line-height: 1; }
+  .detailsBox .row {
+    margin-bottom: 10px; }
+  .detailsBox .activity-wrapper {
+    position: relative;
+    width: 100%;
+    margin-top: 10px; }
+    .detailsBox .activity-wrapper .activity-title {
+      height: 22px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 12px;
+      cursor: pointer;
+      z-index: 6; }
+    .detailsBox .activity-wrapper .activity li {
+      margin-bottom: 8px; }
+      .detailsBox .activity-wrapper .activity li .type {
+        display: inline-block;
+        width: 70px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 5px;
+        text-align: center;
+        background: #b0b0b0;
+        color: #fff;
+        font-size: 12px; }
+      .detailsBox .activity-wrapper .activity li .des {
+        width: 320px;
+        font-size: 13px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 20px;
+        cursor: pointer; }
+        .detailsBox .activity-wrapper .activity li .des:hover {
+          color: #d0021b; }
+  .detailsBox .chose-color {
+    font-size: 12px; }
+    .detailsBox .chose-color .title {
+      margin-top: 8px; }
+    .detailsBox .chose-color ul {
+      width: 510px;
+      margin-top: -8px; }
+      .detailsBox .chose-color ul li {
+        margin-right: 10px;
+        cursor: pointer;
+        border: 1px solid #999;
+        height: 34px;
+        margin-top: 8px;
+        margin-bottom: 0; }
+        .detailsBox .chose-color ul li.focus {
+          border-color: #000; }
+    .detailsBox .chose-color img {
+      float: left;
+      display: inline-block;
+      width: 25px;
+      height: 34px; }
+    .detailsBox .chose-color .color-name {
+      float: left;
+      height: 34px;
+      line-height: 34px;
+      text-align: center;
+      margin-left: 8px;
+      margin-right: 10px; }
+  .detailsBox .chose-size {
+    font-size: 12px; }
+    .detailsBox .chose-size .title {
+      margin-top: 4px; }
+    .detailsBox .chose-size .sizes {
+      width: 510px;
+      position: relative; }
+    .detailsBox .chose-size .size {
+      float: left;
+      color: #000;
+      margin-top: -8px; }
+      .detailsBox .chose-size .size li {
+        float: left;
+        display: block;
+        height: 24px;
+        line-height: 24px;
+        margin-right: 8px;
+        margin-top: 8px;
+        padding: 0 10px;
+        border: 1px solid #999;
+        text-align: center;
+        cursor: pointer;
+        min-width: 10px; }
+        .detailsBox .chose-size .size li.focus {
+          color: #fff;
+          background-color: #222;
+          border: 1px solid #222; }
+        .detailsBox .chose-size .size li.disable {
+          opacity: 0.5; }
+  .detailsBox .color-size-tip {
+    font-size: 13px;
+    color: #999;
+    clear: both;
+    line-height: 25px; }
+  .detailsBox .chose-count .title {
+    margin-top: 4px; }
+  .detailsBox .chose-count .num-wraper {
+    position: relative; }
+    .detailsBox .chose-count .num-wraper .minus-plus {
+      display: block;
+      width: 25px;
+      height: 25px;
+      border: 1px solid #b0b0b0;
+      text-align: center;
+      cursor: pointer;
+      background: #e0e0e0; }
+    .detailsBox .chose-count .num-wraper .num {
+      display: block;
+      width: 50px;
+      height: 25px;
+      line-height: 27px;
+      text-align: center;
+      border: 1px solid #000;
+      color: #000;
+      font-size: 12px;
+      margin-left: 5px;
+      margin-right: 5px; }
+  .detailsBox .buy-btn {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    height: 46px;
+    line-height: 46px;
+    width: 180px;
+    text-align: center;
+    color: #fff;
+    background: #d0021b;
+    font-size: 16px;
+    box-sizing: border-box;
+    cursor: pointer; }
+    .detailsBox .buy-btn.dis {
+      background-color: #ccc; }
+  .detailsBox .collect-product {
+    display: inline-block;
+    width: 140px;
+    height: 46px;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #222;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px; }
+  .detailsBox .support-service {
+    margin-bottom: 15px; }
+    .detailsBox .support-service .item {
+      margin-right: 10px; }
+    .detailsBox .support-service .more {
+      color: #d0021b;
+      cursor: pointer;
+      font-size: 13px; }
+  .detailsBox .code-buy {
+    display: block;
+    width: 180px;
+    height: 92px;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #222;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer; }
+
+.total-content {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  margin-top: 30px; }
+
+.after-service {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0; }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +9,43 @@
   <link rel="stylesheet" href="./css/productList.css">
   <link rel="stylesheet" href="./assets/iconfont.css">
 </head>
+
 <body>
   <header></header>
   <div class="center-content main"></div>
   <footer></footer>
   <script type="module">
-     import Header from "./js/ES6/header.js"
-      import Footer from "./js/ES6/footer.js"
-      import ProductList from "./js/ES6/ProductList.js"
-      init();
-      function init(){
+    import Header from "./js/ES6/header.js"
+    import Footer from "./js/ES6/footer.js"
+    import ProductList from "./js/ES6/ProductList.js"
+    import Goods from "./js/ES6/Goods.js"
+    var goodsList;
+    init();
+    function init() {
+      ajax();
       let header = new Header();
       let footer = new Footer();
       let product = new ProductList();
       product.appendTo(".main")
       header.appendTo("header");
       footer.appendTo("footer");
-      }
+      goodsList.forEach(item => {
+        let goods = new Goods(item);
+        goods.appendTo(".goods-container")
+      });
+    }
+    function ajax() {
+      var xhr = new XMLHttpRequest();
+      xhr.addEventListener("load", loadHandler);
+      xhr.open("GET", "./JSON.json", false);
+      xhr.send();
+    }
+    function loadHandler(e) {
+      var xhr = e.currentTarget;
+      var res = JSON.parse(xhr.response);
+      goodsList = res.goods;
+    }
   </script>
 </body>
+
 </html>
