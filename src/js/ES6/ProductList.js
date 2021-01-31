@@ -14,7 +14,10 @@ export default class ProductList{
   appendTo(parent){
     if (typeof parent === "string") parent = document.querySelector(parent);
     parent.appendChild(this.elem);
-    // this.ready();
+    this.ready();
+  }
+  ready(){
+    
   }
   renderHTML(){
     var str = "";

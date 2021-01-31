@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>商品详情</title>
   <link rel="stylesheet" href="./css/current.css">
   <link rel="stylesheet" href="./css/details.css">
   <link rel="stylesheet" href="./assets/iconfont.css">
@@ -16,15 +16,30 @@
     import Header from "./js/ES6/header.js"
     import Footer from "./js/ES6/footer.js"
     import Details from "./js/ES6/Details.js"
+    var Infos;
     init();
     function init(){
+      ajax();
+      let id = location.href.toString().split("?")[1].split("=")[1];
+      let detailData = Infos[id];
       let header = new Header();
       let footer = new Footer();
-      let details = new Details();
+      let details = new Details(detailData,id);
       header.appendTo("header");
       details.appendTo(".main");
       footer.appendTo("footer");
     }
+    function ajax(){
+    var xhr=new XMLHttpRequest();
+    xhr.addEventListener("load",loadHandler);
+    xhr.open("GET","./JSON.json",false);
+    xhr.send();
+    }
+    function loadHandler(e){
+      var xhr=e.currentTarget;
+      var res=JSON.parse(xhr.response);
+      Infos = res.details;
+  }
   </script>
 </body>
 </html>

@@ -81,7 +81,12 @@
   .hide{
     display: none!important; 
   }
-
+  .size-warn{
+    font-size: 13px;
+    color: #d0021b;
+    clear: both;
+    line-height: 25px;
+  }
   .thumbs{
     width: 75px;
     height: 560px;
@@ -215,7 +220,7 @@
     }
     img{
       float: left;
-      display: inline-block;
+      display: block;
       width: 25px;
       height: 34px;
     }
@@ -353,6 +358,25 @@
     background: #fff;
     color: #222;
     border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .success-tip{
+    color: #222;
+    font-size: 18px;
+    margin-bottom: 10px
+  }
+  .keep-shopping{
+    display: inline-block;
+    width: 140px;
+    height: 46px;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #222;
+    border: 1px solid #ccc;
     box-sizing: border-box;
     font-size: 16px;
     cursor: pointer;

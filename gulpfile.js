@@ -1,10 +1,12 @@
 const { src, dest, series, parallel, watch } = require('gulp');
 const webserver = require('gulp-webserver');
 const sass = require('gulp-sass');
+const cleanCss = require('gulp-clean-css');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 function compileCss() {
     return src('./src/sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
+        .pipe(cleanCss())
         .pipe(dest('./src/css/'))
 }
 

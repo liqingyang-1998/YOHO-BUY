@@ -20,6 +20,7 @@
   "description": "",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^4.1.0",
     "gulp-webserver": "^0.9.1",
     "http-proxy-middleware": "^1.0.6",

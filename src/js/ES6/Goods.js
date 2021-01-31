@@ -1,20 +1,32 @@
 import Utils from "./Utils.js"
 export default class Goods{
+  id;
   constructor(data){
     this.elem = Utils.ce("div")
     this.elem.className = "good-info"
+    this.id = data.id;
     this.elem.innerHTML = this.renderHTML(data);
   }
   appendTo(parent){
     if (typeof parent === "string") parent = document.querySelector(parent);
     parent.appendChild(this.elem);
-
+    this.ready();
+  }
+  ready(){
+    let goodImg = this.elem.querySelector('.good-img');
+    goodImg.addEventListener("click",e=>this.clickhandler(e));
+  }
+  clickhandler(e){
+    if(e.target.nodeName !== "IMG") return
+    e.preventDefault();
+    console.log(this.id);
+    location.href = "./productDetails.html?"+"id="+this.id;
   }
   renderHTML(_data){
     var shop = Object.keys(_data)
     var str = "";
     str += "<div class='good-img'>"
-    str += `<a href='./productDetails.html'><img src='${_data.imgsrc}'><a>`
+    str += `<a><img src='${_data.imgsrc}'><a>`
     if(_data.sellOut){
       str += "<p class='few-tag'>即将售罄</p>"
     }

@@ -17,13 +17,26 @@
     import Footer from './js/ES6/footer.js';
     import ShopCart from './js/ES6/ShopCart.js'
     init();
+    var goodsList;
     function init(){
+      ajax();
       let logHeader = new LogHeader();
       let footer = new Footer();
-      let shopCart = new ShopCart();
+      let shopCart = new ShopCart(goodsList);
       logHeader.appendTo("header");
       shopCart.appendTo(".shop-cart");
       footer.appendTo("footer");
+    }
+    function ajax() {
+      var xhr = new XMLHttpRequest();
+      xhr.addEventListener("load", loadHandler);
+      xhr.open("GET", "./JSON.json", false);
+      xhr.send();
+    }
+    function loadHandler(e) {
+      var xhr = e.currentTarget;
+      var res = JSON.parse(xhr.response);
+      goodsList = res.details;
     }
   </script>
 </body>

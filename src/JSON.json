@@ -9,6 +9,7 @@
   },
   "goods":[
       {
+        "id":"000001",
         "imgsrc":"https://img11.static.yhbimg.com/goodsimg/2020/06/17/17/013a7646799318d3c863d9d6eb0bcb37b7.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG 拼接印花短袖T恤",
         "shop":"SMG",
@@ -17,6 +18,7 @@
         "sellOut":true
       },
       {
+        "id":"000002",
         "imgsrc":"https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0280b7477d623dc8f333586191fff50056.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG LOGO短袖T恤",
         "shop":"SMG",
@@ -25,6 +27,7 @@
         "sellOut":false
       },
       {
+        "id":"000003",
         "imgsrc":"https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01c8bc9ca40836da3f4a989e7c990b3a8e.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG slogan短袖T恤",
         "shop":"SMG",
@@ -33,6 +36,7 @@
         "sellOut":false
       },
       {
+        "id":"000004",
         "imgsrc":"https://img11.static.yhbimg.com/goodsimg/2020/06/29/14/010c4ff317ebed57ac7a1973f49fa4e286.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG 宽松日式夹克",
         "shop":"SMG",
@@ -41,6 +45,7 @@
         "sellOut":true
       },
       {
+        "id":"000005",
         "imgsrc":"https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/0141dd38162a3172d837c86539e421e966.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG 字母印花短袖T恤",
         "shop":"SMG",
@@ -49,6 +54,7 @@
         "sellOut":false
       },
       {
+        "id":"000006",
         "imgsrc":"https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/0263f4d3274d21780942bf09ee6463d867.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG 字母印花短袖T恤",
         "shop":"SMG",
@@ -57,6 +63,7 @@
         "sellOut":false
       },
       {
+        "id":"000007",
         "imgsrc":"https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/023556155a0a8677a5357741de66289313.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG 字母印花短袖T恤",
         "shop":"SMG",
@@ -65,6 +72,7 @@
         "sellOut":false
       },
       {
+        "id":"000008",
         "imgsrc":"https://img11.static.yhbimg.com/goodsimg/2020/06/18/17/01e4d02e4f90f723ad4628675288e7a3db.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80",
         "title":"SMG 字母印花短袖T恤",
         "shop":"SMG",
@@ -72,5 +80,103 @@
         "nowPrice":199,
         "sellOut":false
       }
-    ]  
+    ]  ,
+    "details":{
+      "000001":{
+        "title":"SMG 拼接印花短袖T恤",
+        "showImg":["https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/013a7646799318d3c863d9d6eb0bcb37b7.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/01dcc99d70c5d82cc8da5a6119710cff42.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/013a7646799318d3c863d9d6eb0bcb37b7.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/01dcc99d70c5d82cc8da5a6119710cff42.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/013a7646799318d3c863d9d6eb0bcb37b7.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/01dcc99d70c5d82cc8da5a6119710cff42.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":499,
+        "nowprice":349,
+        "promotion":7,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/013a7646799318d3c863d9d6eb0bcb37b7.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|深蓝"],
+        "size":[{"S":0},{"M":0},{"L":0},{"XL":1}]
+      },
+      "000002":{
+        "title":"SMG LOGO短袖T恤",
+        "showImg":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0280b7477d623dc8f333586191fff50056.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/022f3b49ef348aa42876aa96dd0bcefa71.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0280b7477d623dc8f333586191fff50056.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/022f3b49ef348aa42876aa96dd0bcefa71.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0280b7477d623dc8f333586191fff50056.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/022f3b49ef348aa42876aa96dd0bcefa71.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":399,
+        "nowprice":199,
+        "promotion":5,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0280b7477d623dc8f333586191fff50056.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|白"],
+        "size":[{"S":0},{"M":0},{"L":1},{"XL":1}]
+      },
+      "000003":{
+        "title":"SMG 个性图案印花短袖T恤",
+        "showImg":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/02417bde0dc2362d282cda79483e9d2f1e.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0208b31506c6fc2ef9042b88bea00410ec.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/02417bde0dc2362d282cda79483e9d2f1e.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0208b31506c6fc2ef9042b88bea00410ec.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/02417bde0dc2362d282cda79483e9d2f1e.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/0208b31506c6fc2ef9042b88bea00410ec.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":449,
+        "nowprice":219,
+        "promotion":4.9,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img12.static.yhbimg.com/goodsimg/2020/06/18/17/02417bde0dc2362d282cda79483e9d2f1e.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|黑"],
+        "size":[{"S":1},{"M":1},{"L":0},{"XL":1}]
+      },
+      "000004":{
+        "title":"SMG slogan短袖T恤",
+        "showImg":["https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01c8bc9ca40836da3f4a989e7c990b3a8e.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01ddaedabc4614f83c0bb7b77d93e46182.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01c8bc9ca40836da3f4a989e7c990b3a8e.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01ddaedabc4614f83c0bb7b77d93e46182.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01c8bc9ca40836da3f4a989e7c990b3a8e.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01ddaedabc4614f83c0bb7b77d93e46182.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":299,
+        "nowprice":149,
+        "promotion":5,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/01c8bc9ca40836da3f4a989e7c990b3a8e.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|白"],
+        "size":[{"S":0},{"M":1},{"L":0},{"XL":1}]
+      },
+      "000005":{
+        "title":"SMG 字母印花短袖T恤",
+        "showImg":["https://img11.static.yhbimg.com/goodsimg/2020/06/17/17/0141dd38162a3172d837c86539e421e966.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/01b26673f9a30e79103fff373161b6481c.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img11.static.yhbimg.com/goodsimg/2020/06/17/17/0141dd38162a3172d837c86539e421e966.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/01b26673f9a30e79103fff373161b6481c.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img11.static.yhbimg.com/goodsimg/2020/06/17/17/0141dd38162a3172d837c86539e421e966.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/17/17/01b26673f9a30e79103fff373161b6481c.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":399,
+        "nowprice":199,
+        "promotion":5,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img11.static.yhbimg.com/goodsimg/2020/06/17/17/0141dd38162a3172d837c86539e421e966.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|粉"],
+        "size":[{"S":1},{"M":1},{"L":1},{"XL":1}]
+      },
+      "000006":{
+        "title":"SMG 字母印花短袖T恤",
+        "showImg":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/0263f4d3274d21780942bf09ee6463d867.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/010789015f1bec3e4931f0c36e3a2cdf0f.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/0263f4d3274d21780942bf09ee6463d867.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/010789015f1bec3e4931f0c36e3a2cdf0f.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/0263f4d3274d21780942bf09ee6463d867.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/010789015f1bec3e4931f0c36e3a2cdf0f.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":399,
+        "nowprice":199,
+        "promotion":5,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/0263f4d3274d21780942bf09ee6463d867.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|白"],
+        "size":[{"S":1},{"M":1},{"L":1},{"XL":1}]
+      },
+      "000007":{
+        "title":"SMG 字母印花短袖T恤",
+        "showImg":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/023556155a0a8677a5357741de66289313.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/011778b6a821273d0675b62f5bc22210ff.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/023556155a0a8677a5357741de66289313.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/011778b6a821273d0675b62f5bc22210ff.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/023556155a0a8677a5357741de66289313.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img10.static.yhbimg.com/goodsimg/2020/06/18/17/011778b6a821273d0675b62f5bc22210ff.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":399,
+        "nowprice":199,
+        "promotion":5,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/023556155a0a8677a5357741de66289313.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|黑"],
+        "size":[{"S":1},{"M":1},{"L":1},{"XL":1}]
+      },
+      "000008":{
+        "title":"SMG 字母印花短袖T恤",
+        "showImg":["https://img11.static.yhbimg.com/goodsimg/2020/06/18/17/01e4d02e4f90f723ad4628675288e7a3db.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80","https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/02762c2339075426f361dc042d50cf5045.jpg?imageMogr2/thumbnail/420x560/background/d2hpdGU=/position/center/quality/80"],
+        "bigImg":["https://img11.static.yhbimg.com/goodsimg/2020/06/18/17/01e4d02e4f90f723ad4628675288e7a3db.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80","https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/02762c2339075426f361dc042d50cf5045.jpg?imageMogr2/thumbnail/750x1000/background/d2hpdGU=/position/center/quality/80"],
+        "thumbs":["https://img11.static.yhbimg.com/goodsimg/2020/06/18/17/01e4d02e4f90f723ad4628675288e7a3db.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80","https://img13.static.yhbimg.com/goodsimg/2020/06/18/17/02762c2339075426f361dc042d50cf5045.jpg?imageMogr2/thumbnail/75x100/background/d2hpdGU=/position/center/quality/80"],
+        "oldprice":399,
+        "nowprice":199,
+        "promotion":5,
+        "actPro":["赠品|购指定商品满499元赠好礼，赠完即止","加价购|购买指定商品满99可加19元换购","赠品|指定商品满99赠好礼，赠完即止"],
+        "color":["https://img11.static.yhbimg.com/goodsimg/2020/06/18/17/01e4d02e4f90f723ad4628675288e7a3db.jpg?imageMogr2/thumbnail/25x32/background/d2hpdGU=/position/center/quality/80|白"],
+        "size":[{"S":1},{"M":1},{"L":1},{"XL":1}]
+      }    
+    }
 }
